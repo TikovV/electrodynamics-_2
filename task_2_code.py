@@ -69,7 +69,7 @@ if not os.path.exists('results'):
 Output_results.save_results('results/results.txt', f, results)
 
 plt.plot(f, results, label='f(x)')
-plt.title('График')
+plt.title('Задание №2')
 plt.xlabel('f')
 plt.ylabel('ЭПР')
 plt.grid(True)
